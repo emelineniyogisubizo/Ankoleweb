@@ -1,0 +1,301 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#menulog{
+    position: fixed;
+    left: 21.5cm;
+    z-index: 2;
+}
+.navigation{
+    position: absolute;
+    background-color: rgb(7, 7, 7);
+    padding: 17px;
+    top: 22cm;
+    left: 15cm;
+    border-radius: 1.5cm;
+    z-index: 2;
+}
+.navigation a{
+   color: white;
+   text-decoration: none;
+   margin-left: 1.5cm;
+}
+.navigation button{
+   border-radius: 1cm;
+   height: 1.3cm;
+   width: 4cm;
+   border: none;
+   
+}
+.menucontainer{
+    display: flex;
+}
+.kitisirumenu{
+    width: 50%;
+    height: 6.5cm;
+    background-image: url('Image/kilimo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+   
+
+}
+.kitisirumenu::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.kitisirumenu h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    
+}
+.kitisirumenu h2{
+    position: relative;
+    z-index: 2;
+    color: rgb(182, 75, 36);
+}
+.kitisirumenu{
+    text-align: center;
+    padding: 360px;
+}
+.kitisirumenu a{
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+}
+
+.kilimanimenu{
+    background-image: url('Image/kisiritu.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+    width: 50%;
+    height: 6.5cm;
+
+}
+.kilimanimenu::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.kilimanimenu h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    
+}
+.kilimanimenu{
+    text-align: center;
+    padding: 360px;
+}
+.kilimanimenu h2{
+position: relative;
+z-index: 2;
+color: rgb(182, 75, 36);
+}
+.kilimanimenu a{
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+}
+.iconsfbig{
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    z-index: 2;
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+    
+ }
+ .iconsfbig a{
+    text-decoration: none;
+    color: white;
+ }
+ .iconbottom{
+    position: fixed;
+    bottom: 80px;
+    right: 70px;
+    z-index: 2;
+    font-size: 30px;
+    
+    
+ }
+ .iconbottom a{
+    text-decoration: none;
+    color: white;
+ }
+ @media screen and (min-width: 320px) and (max-width: 857px){
+    *
+{
+    padding: 0;
+    margin: 0;
+}
+#menulog{
+    position: fixed;
+    left: 2cm;
+    top: 0cm;
+    z-index: 2;
+}
+.navigation{
+    position: fixed;
+    background-color: rgb(7, 7, 7);
+    padding: 5px;
+    top: 16cm;
+    left: 0.5cm;
+    border-radius: 1.5cm;
+    z-index: 2;
+    font-size: 13px;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    margin-left: 0.1cm;
+}
+.navigation button{
+    border-radius: 1cm;
+    height: 1cm;
+    width: 2cm;
+    border: none;
+    font-size: 10px;
+   
+}
+.menucontainer{
+    display: flex;
+    display: block;
+}
+.kitisirumenu{
+    width: 100%;
+    height: 70vh;
+    background-image: url('Image/kilimo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+   
+
+}
+.kitisirumenu::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.kitisirumenu h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    
+}
+.kitisirumenu h2{
+    position: relative;
+    z-index: 2;
+    color: rgb(182, 75, 36);
+    padding-top: 8cm;
+    
+}
+.kitisirumenu{
+    text-align: center;
+    padding: 0px;
+}
+.kitisirumenu a{
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+}
+
+.kilimanimenu{
+    background-image: url('Image/kisiritu.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+    width: 100%;
+    height: 70vh;
+
+}
+.kilimanimenu::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.kilimanimenu h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    
+}
+.kilimanimenu{
+    text-align: center;
+    padding: 0px;
+}
+.kilimanimenu h2{
+position: relative;
+z-index: 2;
+color: rgb(182, 75, 36);
+padding-top: 5cm;
+}
+.kilimanimenu a{
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+}
+.iconsfbig{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    display: flex;
+    display: block;
+    gap: 15px;
+    font-size: 25px;
+        
+    
+ }
+ .iconsfbig a{
+    text-decoration: none;
+    color: white;
+ }
+ .iconbottom{
+    position: fixed;
+    bottom: 60.3px;
+    right: 5px;
+    z-index: 2;
+    font-size: 25px;
+    
+    
+ }
+ .iconbottom a{
+    text-decoration: none;
+    color: white;
+ }
+ }

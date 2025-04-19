@@ -1,0 +1,422 @@
+*
+{
+   padding: 0;
+   margin: 0;
+}
+.leftmenucont{
+    display: flex;
+    color: white;
+}
+.kilileft{
+    background-image: url('Image/kilimanimenu.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    position: fixed;
+    
+    
+
+}
+.kilileft::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+   
+}
+.kilileft h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    color: rgb(182, 75, 36);
+    
+}
+
+.kilileft h3{
+position: relative;
+z-index: 2;
+color: rgb(252, 250, 250);
+margin-top: 5cm;
+
+}
+
+
+.bigbreakfast{
+    display: flex;
+    gap: 1cm;
+    
+    
+}
+#menlogo{
+    width: 100px;
+}
+.eggsandtoast{
+    display: flex;
+    gap: 1cm;
+}
+.ranchbrkfast{
+    display: flex;
+    gap: 1cm;
+}
+.crepe{
+    display: flex;
+    gap: 1cm; 
+}
+.toastedbacon{
+    display: flex;
+    gap: 1cm; 
+}
+.kilimaninav{
+    position: absolute;
+    background-color: rgb(7, 7, 7);
+    padding: 17px;
+    top: 21cm;
+    left: 1.4cm;
+    border-radius: 1.5cm;
+    z-index: 2;
+    position: fixed;
+}
+.kilimaninav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1cm;
+
+}
+.kilimaninav button{
+    border-radius: 1cm;
+    height: 1.3cm;
+    width: 4cm;
+    border: none;
+    
+ }
+ .menudiv{
+    background-color: black;
+    padding: 20px;
+    width: 50%;
+    padding-left: 40px;
+    overflow: auto;
+    margin-left: 24.2cm;
+ }
+ .menudiv h3{
+    color: red;
+    margin-top: 1cm;
+    
+ }
+ #dot{
+   margin-top: 1cm;
+ }
+ .menudiv h2{
+   margin-top: 1cm;
+ }
+ .uppermenbar{
+    margin-left: 5cm;
+    padding: 20px;
+ }
+ .uppermenbar a{
+    margin-left: 2cm;
+    text-decoration: none;
+    color: white;
+ }
+ .teaandchoco{
+    display: flex;
+    color: red;
+    gap: 0.3cm;
+    margin-bottom: 1cm;
+ }
+ .sillings{
+    margin-left: 10cm;
+    
+ }
+ .sillings2{
+    margin-left: 11.2cm;
+ }
+ .sillings3{
+    margin-left: 4.8cm;
+ }
+ .sillings4{
+    margin-left: 10.2cm;
+ }
+ .sillings5{
+    margin-left: 4.8cm;
+ }
+ .soups{
+    display: flex;
+    gap: 13cm;
+    margin-top: 1cm;
+ }
+ .soups2{
+    display: flex;
+    gap: 12cm;
+    margin-top: 1cm;
+ }
+ .masalafries{
+    display: flex;
+    gap: 17cm;
+    margin-top: 1cm;
+ }
+ .cheese{
+    display: flex;
+    gap: 16.4cm;
+    margin-top: 1cm;
+ }
+ .mango{
+    display: flex;
+    gap: 18.5cm;
+    margin-top: 1cm;
+ }
+ .pineapple{
+    display: flex;
+    gap: 17.8cm;
+    margin-top: 1cm;
+ }
+ .treetomato{
+    display: flex;
+    gap: 17.1cm;
+    margin-top: 1cm;
+ }
+ .passion{
+    display: flex;
+    gap: 18.4cm;
+    margin-top: 1cm;
+ }
+ .sugarcane{
+    display: flex;
+    gap: 17.6cm;
+    margin-top: 1cm;
+ }
+
+.iconbottom{
+   position: fixed;
+   bottom: 80px;
+   right: 70px;
+   z-index: 2;
+   font-size: 30px;
+   
+   
+}
+.iconbottom a{
+   text-decoration: none;
+   color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 857px){
+   *
+{
+   padding: 0;
+   margin: 0;
+}
+.leftmenucont{
+    display: flex;
+    color: white;
+}
+.kilileft{
+    background-image: url('Image/kilimanimenu.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    position: absolute;
+    
+    
+
+}
+.kilileft::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+   
+}
+.kilileft h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    color: rgb(182, 75, 36);
+    
+}
+
+.kilileft h3{
+position: relative;
+z-index: 2;
+color: rgb(252, 250, 250);
+margin-top: 0cm;
+
+}
+
+
+.bigbreakfast{
+    display: flex;
+    gap: 1cm;
+    margin-top: 8cm;
+    
+    
+    
+}
+#menlogo{
+    width: 80px;
+}
+.eggsandtoast{
+    display: flex;
+    gap: 1cm;
+    margin-top: 1cm;
+}
+.ranchbrkfast{
+    display: flex;
+    gap: 1cm;
+}
+.crepe{
+    display: flex;
+    gap: 1cm; 
+}
+.toastedbacon{
+    display: flex;
+    gap: 1cm; 
+}
+.kilimaninav{
+   position: fixed;
+    background-color: rgb(7, 7, 7);
+    padding: 5px;
+    top: 16cm;
+    left: 0.5cm;
+    border-radius: 1.5cm;
+    z-index: 2;
+    font-size: 13px;
+}
+.kilimaninav a{
+   color: white;
+   text-decoration: none;
+   margin-left: 0.1cm;
+
+}
+.kilimaninav button{
+   border-radius: 1cm;
+   height: 1cm;
+   width: 2cm;
+   border: none;
+   font-size: 10px;
+    
+ }
+ .menudiv{
+    background-color: black;
+    padding: 0px;
+    width: 100%;
+    padding-left: 0px;
+    overflow: auto;
+    margin-left: 0cm;
+    font-size: 10px;
+ }
+ .menudiv h3{
+    color: red;
+    margin-top: 1cm;
+    
+ }
+ #dot{
+   margin-top: 1cm;
+ }
+ .menudiv h2{
+   margin-top: 1cm;
+ }
+ .uppermenbar{
+    margin-left: 1cm;
+    padding: 0px;
+ }
+ .uppermenbar a{
+    margin-left: 0cm;
+    text-decoration: none;
+    color: white;
+ }
+ .teaandchoco{
+    display: flex;
+    color: red;
+    gap: 0.3cm;
+    margin-bottom: 4cm;
+ }
+ .sillings{
+    margin-left: 1cm;
+    
+ }
+ .sillings2{
+    margin-left: 1.8cm;
+ }
+ .sillings3{
+    margin-left: 0cm;
+ }
+ .sillings4{
+    margin-left: 1.3cm;
+ }
+ .sillings5{
+    margin-left: 0cm;
+ }
+ .soups{
+    display: flex;
+    gap: 4cm;
+    margin-top: 1cm;
+ }
+ .soups2{
+    display: flex;
+    gap: 3.3cm;
+    margin-top: 1cm;
+ }
+ .masalafries{
+    display: flex;
+    gap: 6.7cm;
+    margin-top: 1cm;
+ }
+ .cheese{
+    display: flex;
+    gap: 6.3cm;
+    margin-top: 1cm;
+ }
+ .mango{
+    display: flex;
+    gap: 7.5cm;
+    margin-top: 1cm;
+ }
+ .pineapple{
+    display: flex;
+    gap: 7.1cm;
+    margin-top: 1cm;
+ }
+ .treetomato{
+    display: flex;
+    gap: 6.7cm;
+    margin-top: 1cm;
+ }
+ .passion{
+    display: flex;
+    gap: 7.5cm;
+    margin-top: 1cm;
+ }
+ .sugarcane{
+    display: flex;
+    gap: 7cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+ }
+
+ .iconbottom{
+   position: fixed;
+   bottom: 80px;
+   right: 70px;
+   z-index: 2;
+   font-size: 30px;
+   
+   
+}
+.iconbottom a{
+   text-decoration: none;
+   color: white;
+}
+}

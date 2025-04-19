@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reviews</title>
+    <link rel="stylesheet" href="reviews.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div>
+        <div class="anklbsslogo"><img src="Image/ankole_logo-removebg-preview.png" id="menulog"></div>
+        <div class="containerrev" >
+            <div class="iconsfbig">
+                <div class="instagram"><a href="https://instagram.com/ankolegrill" target="_blank">
+                    <i class="fab fa-instagram "></i>
+                </a></div>
+                <div class="facebook"><a href="https://facebook.com/ankolegrill" target="_blank">
+                    <i class="fab fa-facebook-f " id="facebook"></i>
+                </a></div>
+            </div>
+            <div class="iconbottom"><a href="https://wa.me/254710202020" target="_blank">
+                    <i class="fab fa-whatsapp fa-2xl"></i>
+                </a></div>
+                
+            <div class="allreviewscont">
+                <h2>Reviews</h2>
+                <i class="fa-solid fa-solid fa-quote-left quote icons"></i>
+                <p class="messagerev">This place is run by educated, innovative &creative people! The architectural layout, seating, ambience, <br>
+                    lighting,cutlery: servings, design; has been impeccably well thought out! Even thewashrooms were <br>
+                     excellent!The food was AWESOME! This is surprising consideringthe fact we were there on a Saturday night <br>
+                      & they almost had no space!We were extremely well serviced too!Rare to find such finesse in Kenya! You <br> 
+                      must go visitthem!
+                </p>
+                <p class="sender">irfan virji</p>
+                <h4>KITISURU</h4>
+                <i class="fa-solid fa-quote-right quote-icons"></i>
+            </div>
+
+            <div class="allreviewscont">
+                <h2>Reviews</h2>
+                <i class="fa-solid fa-solid fa-quote-left quote icons"></i>
+                <p class="messagerev">Best place to eat out. If you want to have a nice  romantic date this place is perfect. The food is fantastic<br>
+                    be careful cause the portions are bigger than you would expect.
+                </p>
+                <p class="sender">Vladimiro Stivari</p>
+                <h4>KITISURU</h4>
+                <i class="fa-solid fa-quote-right quote-icons"></i>
+        
+            </div>
+
+            <div class="allreviewscont">
+                <h2>Reviews</h2>
+                <i class="fa-solid fa-solid fa-quote-left quote icons"></i>
+                <p class="messagerev">Ankole Grill is indeed a recommandable restuarant. Beautiful location along with excellent and friendly staff<br>
+                   and very nice dishes. Als recommended for those who like Kenyan-stylecuisine!
+                </p>
+                <p class="sender">Stephan Hofer</p>
+                <h4>KITISURU</h4>
+                <i class="fa-solid fa-quote-right quote-icons"></i>
+            </div>
+            <button class="navigation-button w3-display-left" onclick="plusDivs(1)">&#10094;</button>
+            <button class="navigation-button w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <div class="navigation">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="events.html">Events</a>
+            <a href="live.html">Live</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="reservations.html"><button type="button">Reservations</button></a>
+        </div>
+    </div>
+    <script>
+        var slidesi = 1;
+        showDiv(slidesi);
+        function plusDivs(n){
+            showDiv(slidesi += n);
+        }
+        function showDiv(n){
+            var i;
+            var move= document.getElementsByClassName("allreviewscont");
+            if(n>move.length){slidesi=1}
+
+            if(n<1){slidesi=move.length}
+            for(i=0; i< move.length;i++){
+                move[i].style.display="none";
+            }
+            move[slidesi-1].style.display="block";
+        }
+    </script>
+</body>
+</html>

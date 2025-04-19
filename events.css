@@ -1,0 +1,368 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.countries{
+    display: flex;
+
+}
+.accra{
+    width: 370cm;
+    background-image: url('Image/accra.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+    text-align: center;
+    padding-top: 9cm;
+
+}
+.accra::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.accra h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    
+}
+
+.accra h4{
+position: relative;
+z-index: 2;
+color: rgb(252, 184, 158);
+
+}
+.accra p{
+    position: relative;
+    z-index: 2;
+}
+
+.nairobi{
+    background-image: url('Image/nairobo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+    width: 370cm;
+    text-align: center;
+    padding-top: 9cm;
+    
+}
+.nairobi::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.nairobi h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    
+}
+
+.nairobi h4{
+position: relative;
+z-index: 2;
+color: rgb(252, 184, 158);
+}
+.nairobi p{
+    position: relative;
+    z-index: 2;
+}
+
+.zanzibar{
+    background-image: url('Image/zanzibar.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+    width: 370cm;
+    height: 63vh;
+    text-align: center;
+    padding-top: 9cm;
+
+}
+.zanzibar::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.zanzibar h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    
+}
+
+.zanzibar h4{
+position: relative;
+z-index: 2;
+color: rgb(252, 184, 158);
+}
+.zanzibar p{
+    position: relative;
+    z-index: 2;
+}
+.navigationevents{
+    position: absolute;
+    background-color: rgb(7, 7, 7);
+    padding: 17px;
+    top: 22cm;
+    left: 12cm;
+    border-radius: 1.5cm;
+    z-index: 2;
+}
+.navigationevents a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5cm;
+ }
+ .navigationevents button{
+    border-radius: 1cm;
+    height: 1.3cm;
+    width: 4cm;
+    border: none;
+    
+ }
+ #previewimg{
+    position: absolute;
+    z-index: 2;
+    margin-left: 21cm;
+}
+#pavillon{
+    color: gray;
+}
+.iconsfbig{
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    z-index: 2;
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+    
+ }
+ .iconsfbig a{
+    text-decoration: none;
+    color: white;
+ }
+ .iconbottom{
+    position: fixed;
+    bottom: 80px;
+    right: 70px;
+    z-index: 2;
+    font-size: 30px;
+    
+    
+ }
+ .iconbottom a{
+    text-decoration: none;
+    color: white;
+ }
+ @media screen and (min-width: 320px) and (max-width: 857px){
+    *
+{
+    margin: 0;
+    padding: 0;
+}
+.countries{
+    display: flex;
+    display: block;
+
+}
+.accra{
+    width: 100%;
+    height: 70vh;
+    background-image: url('Image/accra.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+    text-align: center;
+    padding-top: 7cm;
+
+}
+.accra::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.accra h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    
+}
+
+.accra h4{
+position: relative;
+z-index: 2;
+color: rgb(252, 184, 158);
+
+}
+.accra p{
+    position: relative;
+    z-index: 2;
+}
+
+.nairobi{
+    background-image: url('Image/nairobo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    padding-top: 7cm;
+    
+}
+.nairobi::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.nairobi h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    
+}
+
+.nairobi h4{
+position: relative;
+z-index: 2;
+color: rgb(252, 184, 158);
+}
+.nairobi p{
+    position: relative;
+    z-index: 2;
+}
+
+.zanzibar{
+    background-image: url('Image/zanzibar.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    position: relative; 
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    padding-top: 7cm;
+
+}
+.zanzibar::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.zanzibar h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 50px;
+    
+}
+
+.zanzibar h4{
+position: relative;
+z-index: 2;
+color: rgb(252, 184, 158);
+}
+.zanzibar p{
+    position: relative;
+    z-index: 2;
+}
+.navigationevents{
+    position: fixed;
+    background-color: rgb(7, 7, 7);
+    padding: 5px;
+    top: 16cm;
+    left: 0.5cm;
+    border-radius: 1.5cm;
+    z-index: 2;
+    font-size: 13px;
+}
+.navigationevents a{
+    color: white;
+    text-decoration: none;
+    margin-left: 0.1cm;
+ }
+ .navigationevents button{
+    border-radius: 1cm;
+    height: 1cm;
+    width: 2cm;
+    border: none;
+    font-size: 10px;
+    
+ }
+ #previewimg{
+    position: absolute;
+    z-index: 2;
+    margin-left: 2.5cm;
+}
+#pavillon{
+    color: gray;
+}
+.iconsfbig{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    display: flex;
+    display: block;
+    gap: 15px;
+    font-size: 25px;
+    
+ }
+ .iconsfbig a{
+    text-decoration: none;
+    color: white;
+ }
+ .iconbottom{
+    position: fixed;
+    bottom: 60.3px;
+    right: 5px;
+    z-index: 2;
+    font-size: 25px;
+    
+    
+ }
+ .iconbottom a{
+    text-decoration: none;
+    color: white;
+ }
+ }

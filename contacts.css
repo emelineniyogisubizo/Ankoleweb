@@ -1,0 +1,217 @@
+*
+body{
+    margin: 0;
+    padding: 0;
+}
+#previewimg{
+    position: absolute;
+    left: 22.5cm;
+}
+.contacts{
+    width: 100%;
+    height: 25.5cm;
+    background-image: url('Image/ankorecontact.webp');
+    background-size: cover; 
+    background-position: center; 
+    position: relative; 
+    display: flex;
+    color: white;
+    gap: 1cm;
+
+}
+.contacts::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.contacts a{
+    text-decoration: none;
+    color: white;
+    z-index: 2;
+    
+}
+.roadkitisuru{
+    border: solid 2px; 
+    width: 10cm;
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 9cm;
+    left: 14cm;
+    line-height: 0.8cm;
+    z-index: 2;
+}
+.Galana{
+    border: solid 2px;
+    width: 10cm;
+    padding: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 9cm;
+    left: 26cm;
+    line-height: 0.8cm;
+    z-index: 2;
+}
+.navigationcontact{
+    position: absolute;
+    background-color: rgb(7, 7, 7);
+    padding: 17px;
+    top: 22cm;
+    left: 14cm;
+    border-radius: 1.5cm;
+    z-index: 2;
+}
+.navigationcontact a{
+   color: white;
+   text-decoration: none;
+   margin-left: 1.5cm;
+}
+.navigationcontact button{
+    border-radius: 1cm;
+    height: 1.3cm;
+    width: 4cm;
+    border: none;
+    
+ }
+ .iconsfbig{
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    z-index: 2;
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+    
+ }
+ .iconsfbig a{
+    text-decoration: none;
+    color: white;
+ }
+ .iconbottom{
+    position: fixed;
+    bottom: 80px;
+    right: 70px;
+    z-index: 2;
+    font-size: 60px;
+    
+    
+ }
+ .iconbottom a{
+    text-decoration: none;
+    color: white;
+ }
+ @media screen and (min-width: 320px) and (max-width: 857px){
+    #previewimg{
+        position: absolute;
+        left: 2cm;
+        position: fixed;
+    }
+    .contacts{
+        width: 100%;
+        height: 25.5cm;
+        background-image: url('Image/ankorecontact.webp');
+        background-size: cover; 
+        background-position: center; 
+        position: relative; 
+        display: flex;
+        display: block;
+        color: rgb(247, 245, 245);
+        /* gap: 1cm; */
+    
+    }
+    .contacts::after {
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: 1; 
+    }
+    .contacts a{
+        text-decoration: none;
+        color: white;
+        z-index: 2;
+        
+    }
+    .roadkitisuru{
+        border: solid 1px white; 
+        width: 9.1cm;
+        padding: 20px;
+        font-size: 20px;
+        position: absolute;
+        top: 8cm;
+        left: 0cm;
+        line-height: 0.5cm;
+        z-index: 2;
+    }
+    .Galana{
+        border: solid 1px white;
+        width: 9.1cm;
+        padding: 20px;
+        font-size: 20px;
+        position: absolute;
+        top: 15cm;
+        left: 0cm;
+        line-height: 0.5cm;
+        z-index: 2;
+    }
+    .navigationcontact{
+        position: absolute;
+        background-color: rgb(7, 7, 7);
+        padding: 5px;
+        top: 23cm;
+        left: 0.5cm;
+        border-radius: 1.5cm;
+        z-index: 2;
+        font-size: 13px;
+    }
+    .navigationcontact a{
+       color: white;
+       text-decoration: none;
+       margin-left: 0.1cm;
+    }
+    .navigationcontact button{
+        border-radius: 1cm;
+        height: 1cm;
+        width: 2cm;
+        border: none;
+        font-size: 10px;
+        
+     }
+     .iconsfbig{
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 2;
+        display: flex;
+        display: block;
+        gap: 15px;
+        font-size: 25px;
+        
+     }
+     .iconsfbig a{
+        text-decoration: none;
+        color: white;
+     }
+     .iconbottom{
+        position: fixed;
+        bottom: 110px;
+        right: 10px;
+        z-index: 2;
+        font-size: 50px;
+        
+        
+     }
+     .iconbottom a{
+        text-decoration: none;
+        color: rgb(251, 253, 251);
+     }
+ }
+ 

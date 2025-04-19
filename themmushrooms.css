@@ -1,0 +1,115 @@
+.themmushroom{
+    background-image: url('Image/live4.jpg');
+    background-size:contain;
+    position: relative;
+    height: 188vh;
+    text-align: center;
+    width: 100%;
+    
+}
+.themmushroom::after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(20, 20, 20, 0.5); 
+    height: 100vh;
+}
+.themmushroom h1{
+    position: relative;
+    top: 12.5cm;
+    font-size: 55px;
+    color: white;
+    z-index: 2;
+    letter-spacing: 1px;
+}
+.themmushroom h2{
+    position: relative;
+    top: 12cm;
+    font-size: 50px;
+    color: white;
+    z-index: 2;
+}
+.livemushroom{
+    position: absolute;
+    background-color: rgb(7, 7, 7);
+    padding: 17px;
+    top: 22cm;
+    left: 13cm;
+    border-radius: 1.5cm;
+    z-index: 2;
+}
+.livemushroom a{
+   color: white;
+   text-decoration: none;
+   margin-left: 1.5cm;
+}
+.livemushroom button{
+    border-radius: 1cm;
+    height: 1.3cm;
+    width: 4cm;
+    border: none;
+    
+ }
+ @media screen and (min-width: 320px) and (max-width: 857px){
+    .themmushroom{
+        background-image: url('Image/live4.jpg');
+        background-size:contain;
+        position: relative;
+        background-repeat: no-repeat;
+        height: 100vh;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .themmushroom::after {
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        background-color: rgba(20, 20, 20, 0.5); 
+        height: 100vh;
+    }
+    .themmushroom h1{
+        position: relative;
+        top: 10.5cm;
+        font-size: 45px;
+        color: white;
+        z-index: 2;
+        letter-spacing: 1px;
+    }
+    .themmushroom h2{
+        position: relative;
+        top: 10cm;
+        font-size: 40px;
+        color: white;
+        z-index: 2;
+    }
+    .livemushroom{
+        position: fixed;
+        background-color: rgb(7, 7, 7);
+        padding: 5px;
+        top: 16cm;
+        left: 0.5cm;
+        border-radius: 1.5cm;
+        z-index: 2;
+        font-size: 13px;
+    }
+    .livemushroom a{
+        color: white;
+        text-decoration: none;
+        margin-left: 0.1cm;
+    }
+    .livemushroom button{
+        border-radius: 1cm;
+        height: 1cm;
+        width: 2cm;
+        border: none;
+        font-size: 10px;
+        
+     }
+ }

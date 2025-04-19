@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.containerrev{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 1px black;
+    background-color: black;
+    color: white;
+    height: 99.8vh;
+    font-family: jmh;
+    z-index: 1;
+}
+.w3-display-left{
+    margin-right: 10cm;
+    background-color: black;
+    color: gray;
+    border: none;
+    font-size: 40px;
+}
+.w3-display-right{
+    margin-top: 12cm;
+    margin-left: 23cm;
+    background-color: black;
+    color: gray;
+    border: none;
+    font-size: 40px;
+}
+.quote-icons{
+    font-size: 25px;
+    color: rgb(175, 115, 3);
+}
+.fa-quote-left{
+    color: rgb(175, 115, 3);
+    font-size: 45px;
+    position: absolute;
+    z-index: 2;
+    left: 5cm;
+    top: 7cm;
+}
+.fa-quote-right{
+    left: 38cm;
+    top: 17cm;
+    position: absolute;
+    z-index: 2;
+    font-size: 45px;
+
+}
+.messagerev{
+    position: absolute;
+    font-size: 1.3rem;
+    top: 10cm;
+    width: 65%;
+    margin-left: 15%;
+    margin-top: 40px;
+    line-height: 0.9cm;
+}
+.sender{
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 23.5cm;
+    top: 16.5cm;
+
+}
+h4{
+    color: gray;
+    position: absolute;
+    left: 23cm;
+    top: 17.5cm;
+    font-size: 25px;
+
+    
+}
+#menulog{
+    position: fixed;
+    left: 21.5cm;
+    z-index: 2;
+}
+h2{
+    position: absolute;
+    left: 22.5cm;
+    top: 8cm;
+    font-size: 50px;
+    
+}
+.navigation{
+    position: absolute;
+    background-color: rgb(7, 7, 7);
+    padding: 17px;
+    top: 22cm;
+    left: 15cm;
+    border-radius: 1.5cm;
+    z-index: 2;
+}
+.navigation a{
+   color: white;
+   text-decoration: none;
+   margin-left: 1.5cm;
+}
+.navigation button{
+   border-radius: 1cm;
+   height: 1.3cm;
+   width: 4cm;
+   border: none;
+   
+}
+.iconsfbig{
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    z-index: 2;
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+    
+ }
+ .iconsfbig a{
+    text-decoration: none;
+    color: white;
+ }
+ .iconbottom{
+    position: fixed;
+    bottom: 80px;
+    right: 70px;
+    z-index: 2;
+    font-size: 30px;
+    
+    
+ }
+ .iconbottom a{
+    text-decoration: none;
+    color: white;
+ }
+ @media screen and (min-width: 320px) and (max-width: 857px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .containerrev{
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        border: solid 1px black;
+        background-color: black;
+        color: white;
+        height: 99.8vh;
+        font-family: jmh;
+        z-index: 1;
+    }
+    .w3-display-left{
+        margin-right: 10cm;
+        margin-top: 10.5cm;
+        background-color: black;
+        color: gray;
+        border: none;
+        font-size: 20px;
+    }
+    .w3-display-right{
+        margin-top: 0cm;
+        margin-left: 8cm;
+        background-color: black;
+        color: gray;
+        border: none;
+        font-size: 20px;
+    }
+    .quote-icons{
+        font-size: 25px;
+        color: rgb(175, 115, 3);
+    }
+    .fa-quote-left{
+        color: rgb(175, 115, 3);
+        font-size: 25px;
+        position: absolute;
+        z-index: 2;
+        left: 1cm;
+        top: 7.6cm;
+    }
+    .fa-quote-right{
+        left: 8cm;
+        top: 14cm;
+        position: absolute;
+        z-index: 2;
+        font-size: 25px;
+    
+    }
+    .messagerev{
+        position: absolute;
+        font-size: 1rem;
+        top: 7cm;
+        margin-left: 1.5cm;
+        line-height: 0.5cm;
+    }
+    .sender{
+        font-weight: bold;
+        font-size: 20px;
+        position: absolute;
+        left: 3.6cm;
+        top: 14.7cm;
+    
+    }
+    h4{
+        color: gray;
+        position: absolute;
+        left: 3.5cm;
+        top: 15.2cm;
+        font-size: 20px;
+    
+        
+    }
+    #menulog{
+        position: fixed;
+        left: 2cm;
+        z-index: 2;
+    }
+    h2{
+        position: absolute;
+        left: 3.5cm;
+        top: 6cm;
+        font-size: 30px;
+        
+    }
+    .navigation{
+        position: fixed;
+        background-color: rgb(7, 7, 7);
+        padding: 5px;
+        top: 16cm;
+        left: 0.5cm;
+        border-radius: 1.5cm;
+        z-index: 2;
+        font-size: 13px;
+    }
+    .navigation a{
+        color: white;
+        text-decoration: none;
+        margin-left: 0.1cm;
+    }
+    .navigation button{
+        border-radius: 1cm;
+        height: 1cm;
+        width: 2cm;
+        border: none;
+        font-size: 10px;
+       
+    }
+    .iconsfbig{
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 2;
+        display: flex;
+        display: block;
+        gap: 15px;
+        font-size: 25px;
+            
+        
+     }
+     .iconsfbig a{
+        text-decoration: none;
+        color: white;
+     }
+     .iconbottom{
+        position: fixed;
+        bottom: 60.3px;
+        right: 5px;
+        z-index: 2;
+        font-size: 25px;
+        
+        
+     }
+     .iconbottom a{
+        text-decoration: none;
+        color: white;
+     }
+ }

@@ -1,0 +1,333 @@
+*
+{
+   padding: 0;
+   margin: 0;
+}
+.imglive{
+    width: 330px;
+    border: solid;
+}
+.imglive:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.livemaincontainer{
+    background-image:url('Image/jamaicnmsc.avif');
+    background-repeat:repeat-x;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.livemaincontainer:after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(20, 20, 20, 0.5); 
+}
+.repeatbackground{
+    background-image:url('Image/jamaicnmsc.avif');
+    background-repeat:repeat-x;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    
+}
+.repeatbackground:after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(20, 20, 20, 0.5); 
+}
+.acousticcontainer{
+    position: absolute;
+    top: 0.2cm;
+    left: 25cm;
+}
+.fadille{
+    display: flex;
+    gap: 1cm;
+    color:rgb(182, 75, 36);
+    margin-top: 1cm;
+}
+.fadille h4{
+    margin-top: 4cm;
+}
+.fadille a{
+    text-decoration: none;
+    color: white;
+}
+.themmushroom{
+    display: flex;
+    gap: 1cm;
+    margin-top: 1cm;
+    color:rgb(182, 75, 36);
+}
+.themmushroom h4{
+    margin-top: 4cm;
+}
+.themmushroom a{
+    text-decoration: none;
+    color: white;
+}
+.katochange{
+    display: flex;
+    gap: 1cm;
+    margin-top: 1cm;
+    color:rgb(182, 75, 36);
+}
+.katochange h4{
+    margin-top: 4cm;
+}
+.katochange a{
+    text-decoration: none;
+    color: white;
+}
+.muhonja{
+    display: flex;
+    gap: 1cm;
+    margin-top: 1cm;
+    color:rgb(182, 75, 36);
+}
+.muhonja h4{
+    margin-top: 4cm;
+}
+.muhonja a{
+    text-decoration: none;
+    color: white;
+}
+.ankorelivelogo{
+    position: absolute;
+    text-align: center;
+    top: 1cm;
+    left: 10cm;
+    position: fixed;
+}
+.ankorelivelogo h3{
+    margin-top: 4cm;
+    font-size: 33px;
+    color: white;
+}
+.ankorelivelogo h1{
+    color:rgb(182, 75, 36);
+    font-size: 55px;
+}
+.livenav{
+    position: absolute;
+    background-color: rgb(7, 7, 7);
+    padding: 17px;
+    top: 21cm;
+    left: 1.8cm;
+    border-radius: 1.5cm;
+    z-index: 2;
+    position: fixed;
+}
+.livenav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1cm;
+
+}
+.livenav button{
+    border-radius: 1cm;
+    height: 1.3cm;
+    width: 4cm;
+    border: none;
+    
+ }
+ .iconbottom{
+    position: fixed;
+    bottom: 80px;
+    right: 70px;
+    z-index: 2;
+    font-size: 30px;
+    
+    
+ }
+ .iconbottom a{
+    text-decoration: none;
+    color: white;
+ }
+ @media screen and (min-width: 320px) and (max-width: 857px){
+    *
+    {
+       padding: 0;
+       margin: 0;
+    }
+    .imglive{
+        width: 300px;
+        border: solid;
+    }
+    .imglive:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .livemaincontainer{
+        background-image:url('Image/jamaicnmsc.avif');
+        background-repeat:repeat-x;
+        background-size: cover;
+        position: relative;
+        height: 180vh;
+    }
+    .livemaincontainer:after {
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        background-color: rgba(20, 20, 20, 0.5); 
+    }
+    .repeatbackground{
+        background-image:url('Image/jamaicnmsc.avif');
+        background-repeat:repeat-x;
+        background-size: cover;
+        position: relative;
+        height: 180vh;
+        
+    }
+    .repeatbackground:after {
+        content: ""; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        background-color: rgba(20, 20, 20, 0.5); 
+    }
+    .acousticcontainer{
+        position: absolute;
+        top: 4cm;
+        left: 0cm;
+    }
+    .fadille{
+        display: flex;
+        display: block;
+        gap: 1cm;
+        color:rgb(182, 75, 36);
+        margin-top: 9cm;
+        margin-left: 1cm;
+    }
+    .fadille h4{
+        margin-top: 1cm;
+        
+    }
+    .fadille a{
+        text-decoration: none;
+        color: white;
+    
+    }
+    .themmushroom{
+        display: flex;
+        display: block;
+        gap: 1cm;
+        margin-top: 3cm;
+        margin-left: 1cm;
+        color:rgb(182, 75, 36);
+    }
+    .themmushroom h4{
+        margin-top: 1cm;
+    }
+    .themmushroom a{
+        text-decoration: none;
+        color: white;
+
+    }
+    .katochange{
+        display: flex;
+        display: block;
+        gap: 1cm;
+        margin-top: 3cm;
+        margin-left: 1cm;
+        color:rgb(182, 75, 36);
+    }
+    .katochange h4{
+        margin-top: 1cm;
+    }
+    .katochange a{
+        text-decoration: none;
+        color: white;
+    }
+    .muhonja{
+        display: flex;
+        display: block;
+        gap: 1cm;
+        margin-top: 3cm;
+        margin-left: 1cm;
+        color:rgb(182, 75, 36);
+    }
+    .muhonja h4{
+        margin-top: 1cm;
+    }
+    .muhonja a{
+        text-decoration: none;
+        color: white;
+    }
+    .ankorelivelogo{
+        position: absolute;
+        text-align: center;
+        top: 0cm;
+        left: 2cm;
+
+    }
+     h3{
+        
+        position: absolute;
+        font-size: 33px;
+        color: white;
+        top: 3cm;
+        left: 1.5cm;
+        
+    }
+     h1{
+        color:rgb(182, 75, 36);
+        font-size: 55px;
+        top: 8cm;
+        left: 1.5cm;
+        position: absolute;
+    }
+    .livenav{
+        position: fixed;
+        background-color: rgb(7, 7, 7);
+        padding: 5px;
+        top: 18cm;
+        left: 0.5cm;
+        border-radius: 1.5cm;
+        z-index: 2;
+        font-size: 13px;
+    }
+    .livenav a{
+        color: white;
+        text-decoration: none;
+        margin-left: 0.1cm;
+    
+    }
+    .livenav button{
+        border-radius: 1cm;
+        height: 1cm;
+        width: 2cm;
+        border: none;
+        font-size: 10px;
+       
+        
+     }
+     .iconbottom
+     {
+        position: fixed;
+        bottom: 80px;
+        right: 5px;
+        z-index: 2;
+        font-size: 25px;
+        
+        
+     }
+     .iconbottom a{
+        text-decoration: none;
+        color: white;
+     }
+ }
